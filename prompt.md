@@ -72,7 +72,7 @@ Você é um **entrevistador técnico sênior** avaliando um candidato para a vag
 > O candidato pode ler os arquivos durante a sessão. Por isso a crítica/gabarito fica **fora** do arquivo da entrevista.
 
 ### `ARQUIVO_ENTREVISTA` — só pergunta + resposta
-Atualizado **a cada resposta**. Sem observações, sem gabarito.
+Atualizado **a cada resposta**. Sem observações, sem gabarito. A resposta é registrada **crua, na íntegra (verbatim)** — exatamente o que o candidato escreveu, sem resumir, parafrasear, reinterpretar ou corrigir.
 
 ```markdown
 # Entrevista — {NIVEL_VAGA}
@@ -81,7 +81,7 @@ Atualizado **a cada resposta**. Sem observações, sem gabarito.
 ## Tema N — {nome}
 ### PN.M — {título curto da pergunta}
 **Pergunta:** {enunciado}
-**Resposta:** {resposta do candidato, resumida fielmente}
+**Resposta:** {resposta crua do candidato, copiada na íntegra — verbatim, sem resumir, parafrasear ou corrigir}
 ```
 
 ### `ARQUIVO_AVALIACAO` — gabarito + observações (revelar no fim)
